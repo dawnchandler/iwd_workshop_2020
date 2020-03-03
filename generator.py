@@ -10,7 +10,7 @@ passLen = input('Enter password length: ')
 passLen = int(passLen)
 
 # Pool of characters for password:
-chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%ˆ&*()'
+chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%ˆ&*()'
 charsLen = len(chars)
 
 # Build the password by adding random characters:
